@@ -1,0 +1,35 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ color: #fff;
+}
+
+body{
+ background-color: hsl(216, 12%, 8%);
+ height: 70vh;
+}
+
+.container{
+ max-width: 415px;
+ margin: 0 auto;
+ width: 90%;
+ /* display: grid; */
+ border: 2px solid orangered;
+}
+
+.content{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ margin: 1.3em;
+ border: 2px solid green;
+}
+
+.starred{
+ border: 2px solid yellow;
+}
+
+.number-select{
+ border: 2px solid palevioletred;
+}

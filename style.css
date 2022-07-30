@@ -13,22 +13,102 @@ body{
 .container{
  max-width: 415px;
  margin: 0 auto;
+ background-color: hsl(215, 21%, 17%);
  width: 90%;
- border: 2px solid orangered;
+ border-radius: 1.3em;
+ margin-top: 8em;
+ border: 1px solid hsl(215, 21%, 17%);
 }
 
 .content{
  display: flex;
  flex-direction: column;
- gap: 20px;
- margin: 1.3em;
- border: 2px solid green;
+ gap: 1.5em;
+ margin: 1.5em;
 }
 
 .starred{
- border: 2px solid yellow;
+ background: hsl(214, 13%, 22%);
+ border-radius: 50%;
+ width: 40px;
+ height: 40px;
+ position: relative;
+}
+
+.starred-movement{
+ position: absolute;
+ top: 26%;
+ left: 30%;
+}
+
+.content-text{
+ font-size: 2rem;
+ width: 70%;
+color: hsl(0, 0%, 100%);
+}
+
+.content-para{
+ width: 95%;
+ font-size: 1.07rem;
+ line-height: 1.5em;
+ margin-top: -0.5em;
+ color: hsl(217, 12%, 63%);
 }
 
 .number-select{
- border: 2px solid palevioletred;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.number-btn{
+  background: hsl(214, 13%, 22%);
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   color: hsl(217, 12%, 63%);
+   border: none;
+}
+
+.check-btn{
+ background-color: hsl(25, 97%, 53%);
+ padding: 1em 2em;
+ border-radius: 2em;
+ color: hsl(0, 0%, 100%);
+ text-transform: uppercase;
+ letter-spacing: 0.15em;
+ border: none;
+}
+
+.thank-content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 1.6em;
+ margin: 3em 2em;
+}
+
+.svg-img{
+ filter: brightness(115%);
+}
+
+.selected{
+border-radius: 1em;
+padding: 0.4em 1.18em;
+ background: hsl(214, 13%, 22%);
+}
+.selected h4 {
+ color: hsl(25, 97%, 53%);
+}
+.selected .qty {
+  color: hsl(25, 97%, 53%);
+}
+
+
+.thank-para{
+ font-size: 1.025rem;
+ text-align: center;
+ line-height: 1.45em;
+  color: hsl(217, 12%, 63%);
+  margin-top: -0.5em;
 }

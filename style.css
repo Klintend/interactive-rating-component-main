@@ -128,9 +128,66 @@ padding: 0.4em 1.18em;
 
 
 .thank-para{
- font-size: 1.025rem;
+ font-size: 1.08rem;
  text-align: center;
  line-height: 1.45em;
   color: hsl(217, 12%, 63%);
   margin-top: -0.5em;
+}
+/* End of thank you state */
+
+
+/* MOBILE VERSION */
+@media (max-width: 690px){
+ /* mobile version for Rate state start */
+ .container{
+  margin-top: 10em;
+ }
+
+ .content {
+  gap: 1em;
+ }
+
+  .content-text{
+   font-size: 1.6rem;
+   margin-top: -0.1em;
+  }
+
+  .content-para{
+   font-size: 0.95rem;
+   width: 98%;
+  }
+
+  .number-btn{
+     background: hsl(214, 13%, 22%);
+      border-radius: 50%;
+      width: 41px;
+      height: 41px;
+      font-size: 1rem;
+      font-weight: bold;
+      color: hsl(217, 12%, 63%);
+      border: none;
+  }
+
+  .check-btn{
+   font-weight: bold;
+   font-size: 0.8rem;
+  }
+   /* end of rating state */
+
+
+ /* Mobile version for thank you state */
+  .svg-img{
+   filter: brightness(95%);
+  }
+ .selected{
+  padding: 0.4em 0.7em;
+ }
+ .selected h4{
+  filter: brightness(90%);
+  font-size: 1.17rem;
+ }
+  .thank-para{
+   font-size: 0.9rem;
+  }
 }

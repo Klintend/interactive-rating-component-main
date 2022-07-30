@@ -64,10 +64,22 @@ color: hsl(0, 0%, 100%);
 .number-btn{
   background: hsl(214, 13%, 22%);
    border-radius: 50%;
-   width: 45px;
-   height: 45px;
+   width: 55px;
+   height: 55px;
+   font-size: 1rem;
+   font-weight: bold;
    color: hsl(217, 12%, 63%);
    border: none;
+}
+
+.number-btn:hover{
+ background-color: hsl(217, 12%, 63%);
+ color: hsl(0, 0%, 100%);
+ cursor: pointer;
+}
+.number-btn:focus{
+ background-color: hsl(25, 97%, 53%);
+ color: hsl(0, 0%, 100%);
 }
 
 .check-btn{
@@ -77,9 +89,19 @@ color: hsl(0, 0%, 100%);
  color: hsl(0, 0%, 100%);
  text-transform: uppercase;
  letter-spacing: 0.15em;
+ font-weight: bold;
  border: none;
 }
 
+.check-btn:hover, .check-btn:focus{
+ background-color: hsl(0, 0%, 100%);
+ color: hsl(25, 97%, 53%);
+ cursor: pointer;
+}
+/* Rate state end */
+
+
+/* Thank you state start */
 .thank-content {
  display: flex;
  flex-direction: column;
